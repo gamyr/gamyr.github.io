@@ -64,8 +64,8 @@
       } else {
 		const h = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
 		const w = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
-        canvas.style.width = w + "px";
-        canvas.style.height = h + "px";
+        canvas.style.width = w*7/8 + "px";
+        canvas.style.height = h*7/8 + "px";
       }
       loadingBar.style.display = "block";
 
