@@ -8,8 +8,8 @@
   <body style="text-align: center">
     <canvas id="unity-canvas" width=600 height=800 style="width: 600px; height: 800px; background: #231F20"></canvas>
 	<script>
-		const h = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0) * 19/20;
-		const w = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0) * 19/20;
+		let h = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0) * 19/20;
+		let w = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0) * 19/20;
 		if(h > 4/3 * w) {
 			h = 4/3 * w;
 			console.log("ok");
